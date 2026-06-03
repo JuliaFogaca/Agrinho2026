@@ -1,0 +1,204 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte 4.0 - O Futuro Conectado</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+    <nav>
+        <div class="logo">🌱 Agro Forte 4.0</div>
+
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#tecnologia">Tecnologia</a></li>
+            <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+            <li><a href="#futuro">Futuro</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-content">
+        <h1>AGRO FORTE 4.0</h1>
+
+        <p>
+            A união entre agricultura, inteligência artificial,
+            sustentabilidade e inovação para alimentar o mundo.
+        </p>
+
+        <a href="#sobre" class="btn">Descobrir</a>
+    </div>
+</header>
+
+<section id="sobre">
+    <div class="titulo">
+        <h2>🚜 O Novo Agro</h2>
+    </div>
+
+    <div class="conteudo">
+        <p>
+            O agro moderno não depende apenas da força do trabalho no campo.
+            Hoje, ele utiliza tecnologia avançada para produzir mais,
+            economizar recursos naturais e garantir alimentos de qualidade.
+        </p>
+
+        <p>
+            Sensores inteligentes, drones, satélites e inteligência artificial
+            ajudam produtores a tomar decisões mais rápidas e eficientes.
+        </p>
+    </div>
+</section>
+
+<section id="tecnologia">
+
+    <div class="titulo">
+        <h2>💡 Tecnologias do Agro Forte 4.0</h2>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🚁 Drones</h3>
+            <p>
+                Monitoram lavouras, identificam pragas e ajudam na pulverização
+                com maior precisão.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🤖 Inteligência Artificial</h3>
+            <p>
+                Analisa dados climáticos e prevê problemas antes mesmo que eles
+                aconteçam.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📡 Sensores Inteligentes</h3>
+            <p>
+                Medem umidade, temperatura e nutrientes do solo em tempo real.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🛰 Satélites</h3>
+            <p>
+                Acompanham grandes áreas agrícolas e auxiliam no planejamento
+                da produção.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="sustentabilidade" class="verde">
+
+    <div class="titulo">
+        <h2>🌿 Agro e Sustentabilidade</h2>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>💧 Economia de Água</h3>
+            <p>
+                Sistemas inteligentes irrigam apenas onde é necessário.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>♻ Reaproveitamento</h3>
+            <p>
+                Resíduos agrícolas podem se transformar em energia limpa.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌎 Menor Impacto Ambiental</h3>
+            <p>
+                Produção eficiente preservando a natureza.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="futuro">
+
+    <div class="titulo">
+        <h2>🚀 O Futuro do Agro</h2>
+    </div>
+
+    <div class="linha-tempo">
+
+        <div class="etapa">
+            <span>2025</span>
+            <p>Agricultura Digital</p>
+        </div>
+
+        <div class="etapa">
+            <span>2030</span>
+            <p>Fazendas Automatizadas</p>
+        </div>
+
+        <div class="etapa">
+            <span>2040</span>
+            <p>Produção 100% Inteligente</p>
+        </div>
+
+        <div class="etapa">
+            <span>2050</span>
+            <p>Agro Sustentável Global</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contador-section">
+
+    <h2>🌾 Produzindo o Futuro</h2>
+
+    <div class="contador" id="contador">0</div>
+
+    <p>hectares monitorados por tecnologia inteligente</p>
+
+</section>
+
+<footer>
+    <h3>Projeto Agrinho</h3>
+    <p>
+        Agro Forte 4.0 – Inteligência, Tecnologia e Sustentabilidade
+        que Alimentam o Futuro.
+    </p>
+</footer>
+
+<script>
+
+let numero = 0;
+let contador = document.getElementById("contador");
+
+let animacao = setInterval(() => {
+
+    numero += 50;
+
+    contador.innerHTML = numero.toLocaleString();
+
+    if(numero >= 10000){
+        clearInterval(animacao);
+    }
+
+}, 20);
+
+</script>
+
+</body>
+</html>
+```
